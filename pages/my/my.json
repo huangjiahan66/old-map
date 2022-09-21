@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "v-preview":"/components/preview/index"
+  }
+}

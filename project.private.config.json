@@ -1,0 +1,35 @@
+{
+  "projectname": "bink-wx",
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": false
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "pages/book/book",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "book-detail",
+          "pathName": "pages/book-detail/book-detail",
+          "query": "bid=1120",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "喜欢",
+          "pathName": "pages/my/my",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
